@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+
+    <item android:id="@+id/action_recent_thumbnails_activity"
+    android:title="@string/title_activity_recent_thumbnails"
+    android:icon="@drawable/ic_history_white_24dp"
+    android:orderInCategory="100"
+    app:showAsAction="always" />
+
+    <item android:id="@+id/action_share_thumbnail"
+        android:title="@string/action_share_thumbnail_menu"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:orderInCategory="99"
+        app:showAsAction="always"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_open_youtube"
+        android:title="@string/action_open_yt_app_menu"
+        app:showAsAction="never"
+        android:orderInCategory="97"
+        />
+
+    <item android:id="@+id/action_developer_info"
+        android:title="@string/action_developerinfo_menu"
+        app:showAsAction="never"
+        android:orderInCategory="98"
+        />
+</menu>

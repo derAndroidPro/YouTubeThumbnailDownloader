@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewViewThumbnail"
+        android:src="@drawable/maxresdefault"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        >
+        <!-- Teilen Button -->
+        <RelativeLayout
+            android:id="@+id/buttonShare_Layout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="?attr/selectableItemBackground"
+            >
+
+            <ImageView
+                android:id="@+id/shareicon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_share_grey600_48dp"
+                />
+            <TextView
+                android:id="@+id/dialogShareTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/share"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/shareicon"
+ />
+        </RelativeLayout>
+
+
+
+        <!-- Löschen button -->
+        <RelativeLayout
+            android:id="@+id/buttonDelete_Layout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:background="?attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/deleteicon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_delete_grey600_48dp"
+                />
+            <TextView
+                android:id="@+id/dialogDeleteTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/delete"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:paddingRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/deleteicon"
+ />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

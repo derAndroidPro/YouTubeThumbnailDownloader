@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="derandroidpro.youtubethumbnaildownloader" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+            <intent-filter
+                android:label="@string/intentfilter_share_label"
+                >
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SEND"/>
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="www.youtu.be" />
+                <data android:host="youtu.be" />
+                <data android:host="youtube.com"/>
+                <data android:host="www.youtube.com"/>
+                <data android:host="https://youtu.be"/>
+                <data android:host="https://youtu.be/"/>
+                <data android:host="www.youtu.be"/>
+                <data android:host="youtube"/>
+
+            </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name=".RecentThumbnailsActivity"
+            android:label="@string/title_activity_recent_thumbnails"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+    </application>
+
+</manifest>

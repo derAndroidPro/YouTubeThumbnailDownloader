@@ -1,0 +1,37 @@
+
+<!-- DEUTSCHE STRINGS DATEI!!-->
+
+<resources>
+    <string name="app_name">YT Thumbnail Downloader</string>
+    <string name="button_text">Thumbnail herunterladen</string>
+    <string name="edittext_hint">YouTube Video URL</string>
+    <string name="toast_invalid_url">URL ist ungültig. Bitte gültige YouTube  Video-URL eingeben.</string>
+    <string name="progress_dialog_message">Thumbnail wird heruntergeladen...</string>
+    <string name="title_activity_recent_thumbnails">Letzte Thumbnails</string>
+    <string name="no_thumbnails_in_folder">Keine Thumbnails</string>
+
+    <string name="dialog_action_share">Thumbnail teilen</string>
+    <string name="dialog_action_delete">Thumbnail löschen</string>
+    <string name="sharedialog_title">Thumbnail teilen...</string>
+
+    <string name="intentfilter_share_label">Thumbnail herunterladen</string>
+
+    <string name="action_open_yt_app_menu">YouTube App öffnen</string>
+    <string name="action_share_thumbnail_menu">Thumbnail teilen</string>
+    <string name="toast_yt_app_not_installed">YouTube App ist nicht installiert.</string>
+    <string name="action_developerinfo_menu">Über den Entwickler</string>
+    <string name="dev_info_text">Diese App wurde von <b>der Android Pro</b> programmiert.\nBitte besuche meinen YouTube-Kanal:\nhttps://www.youtube.com/derandroidpro\n\nBei Fragen und Anregungen kannst du mir eine E-Mail schicken:\nder.android.david@gmail.com</string>
+    <string name="share">teilen</string>
+    <string name="delete">löschen</string>
+    <string name="toast_deleteconfirmation">Thumbnail wurde gelöscht.</string>
+    <string name="dialogclose">schließen</string>
+    <string name="download_fail">Download fehlgeschlagen.</string>
+
+
+
+    <!-- FARBEN -->
+    <color name="primary_color">#03a9f4</color>
+    <color name="primary_dark_color">#0288d1</color>
+    <color name="accent_color">#03a9f4</color>
+
+</resources>

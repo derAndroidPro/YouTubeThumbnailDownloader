@@ -1,0 +1,37 @@
+
+<!-- ENGLISCHE STRINGS DATEI!!-->
+
+<resources>
+    <string name="app_name">YT Thumbnail Downloader</string>
+    <string name="button_text">download thumbnail</string>
+    <string name="edittext_hint">YouTube video URL</string>
+    <string name="toast_invalid_url">Invalid url! Paste a valid video URL.</string>
+    <string name="progress_dialog_message">Downloading thumbnail...</string>
+    <string name="title_activity_recent_thumbnails">Recent Thumbnails</string>
+    <string name="no_thumbnails_in_folder">No thumbnails</string>
+
+    <string name="dialog_action_share">Share thumbnail</string>
+    <string name="dialog_action_delete">Delete thumbnail</string>
+    <string name="sharedialog_title">Share thumbnail to...</string>
+
+    <string name="intentfilter_share_label">Downl. thumbnail</string>
+
+    <string name="action_open_yt_app_menu">Open YouTube App</string>
+    <string name="action_share_thumbnail_menu">Share thumbnail</string>
+    <string name="toast_yt_app_not_installed">YouTube App is not installed.</string>
+    <string name="action_developerinfo_menu">About developer</string>
+    <string name="dev_info_text">This app is developed by <b>der Android Pro</b>.\nPlease visit my YouTube channel:\nhttps://www.youtube.com/derandroidpro\n\nIf you´ve got a question send me an e-mail:\nder.android.david@gmail.com</string>
+    <string name="share">share</string>
+    <string name="delete">delete</string>
+    <string name="toast_deleteconfirmation">Thumbnail has been deleted.</string>
+    <string name="dialogclose">close</string>
+    <string name="download_fail">Download failed.</string>
+
+
+
+    <!-- COLORS -->
+    <color name="primary_color">#03a9f4</color>
+    <color name="primary_dark_color">#0288d1</color>
+    <color name="accent_color">#03a9f4</color>
+
+</resources>
