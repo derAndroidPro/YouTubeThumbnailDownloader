@@ -1,7 +1,7 @@
 # YouTube Thumbnail Downloader für Android
 #####Diese Android App ermöglicht das einfache Herunterladen von YouTube Video Thumbnails.
 ----
-Eigentlich wollte ich diese App hier im Play Store veröffentlichen, allerdings durfte ich das nicht, da die App gegen die YouTube Richtlinien verstieß. Mehr dazu in diesem Video: 
+Eigentlich wollte ich diese App hier im Play Store veröffentlichen, allerdings durfte ich das nicht, da die App gegen die YouTube Richtlinien verstieß. Mehr dazu in <b>[diesem Video](https://youtu.be/RiYq58CfBZ4)</b>.
 
 Aber wenn ich die App schon nicht in den Play Store stellen darf, veröffentliche ich wenigstens den Quellcode. :D
 
